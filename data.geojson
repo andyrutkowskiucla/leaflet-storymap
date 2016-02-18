@@ -1,62 +1,425 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 1,
-        "chapter": "first point",
-        "zoom": 18,
-        "image": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
-        "source credit": "i dont know",
-        "source link": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
-        "description": "yes yes yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.3502197265625,
-          34.00258128543371
-        ]
-      }
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.414833,34.05836 ]
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 2,
-        "chapter": "second point",
-        "zoom": 17,
-        "image": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
-        "source credit": "i dont know",
-        "source link": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
-        "description": "yes yes yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.10302734374999,
-          33.8247936182649
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 3,
-        "chapter": "third point",
-        "zoom": 16,
-        "image": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
-        "source credit": "i dont know",
-        "source link": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
-        "description": "yes yes yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.938232421875,
-          34.043556504127444
-        ]
-      }
+    "properties": {
+    "id":1,
+    "chapter":"Annenberg Space for Photography",
+    "zoom":18,
+    "image":"http://dailybruin.com/images/47006_web.ae.2.15.lrobertscolumn.picao.jpg",
+    "source credit":"nope",
+    "source link":"http://annenbergphotospace.org/about"
     }
-  ]
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.236222,34.043274 ]
+    },
+    "properties": {
+    "id":2,
+    "chapter":"A + D Museum (Art and Design Museum)",
+    "zoom":18,
+    "image":"http://aplusd.org/wp-content/uploads/2015/08/a-d_shelter15.jpg",
+    "source credit":"nope",
+    "source link":"http://aplusd.org/about/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.282104,34.148518 ]
+    },
+    "properties": {
+    "id":3,
+    "chapter":"Autry Museum of the American West",
+    "zoom":18,
+    "image":"https://theautry.org/images/gallery/albums/about/history/about_museum_american_west.jpg",
+    "source credit":"nope",
+    "source link":"https://theautry.org/about-us/history"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.250638,34.054564 ]
+    },
+    "properties": {
+    "id":4,
+    "chapter":"The Broad Museum ",
+    "zoom":18,
+    "image":"http://www.thebroad.org/sites/default/files/images/iwan_baan_the_broad_facade.png",
+    "source credit":"nope",
+    "source link":"http://www.thebroad.org/about"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.283237,34.016692 ]
+    },
+    "properties": {
+    "id":5,
+    "chapter":"California African American Museum",
+    "zoom":18,
+    "image":"https://www.google.com/imgres?imgurl=https://upload.wikimedia.org/wikipedia/commons/f/f3/California_African_American_Museum_sign.JPG&imgrefurl=https://en.wikipedia.org/wiki/Wikipedia:Meetup/LA/EOB/Unforgetting_7&h=1728&w=2592&tbnid=lOfHK1u5iKiB3M:&docid=FHEtS_qbJdbndM&ei=jLmVVv3XKJC2jwO__7KADw&tbm=isch&ved=0ahUKEwj9zYr04aXKAhUQ22MKHb-_DPAQMwgcKAAwAA",
+    "source credit":"nope",
+    "source link":"http://www.caamuseum.org/web_pages/history.htm"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.23909,34.055839 ]
+    },
+    "properties": {
+    "id":6,
+    "chapter":"Chinese American Museum ",
+    "zoom":18,
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chinese_American_Museum.jpg/220px-Chinese_American_Museum.jpg",
+    "source credit":"nope",
+    "source link":"http://camla.org/mission-and-history/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.355356,34.063155 ]
+    },
+    "properties": {
+    "id":7,
+    "chapter":"Craft and Folk Art Museum",
+    "zoom":18,
+    "image":"http://www.socalmuseums.org/wp/wp-content/uploads/2014/12/cafam11.jpg",
+    "source credit":"nope",
+    "source link":"http://www.cafam.org/about-us/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.160864,34.152471 ]
+    },
+    "properties": {
+    "id":8,
+    "chapter":"The Gamble House",
+    "zoom":18,
+    "image":"http://gamblehouse.org/wp-content/gallery/exterior/gamble-house-vertikoff-drive-view.jpg",
+    "source credit":"nope",
+    "source link":"http://gamblehouse.org/the-gambles-in-pasadena/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.474095,34.079084 ]
+    },
+    "properties": {
+    "id":9,
+    "chapter":"The Getty Center",
+    "zoom":18,
+    "image":"http://blogs.getty.edu/iris/files/2012/12/gtc_2008-05-26spri0002.jpg",
+    "source credit":"nope",
+    "source link":"https://en.wikipedia.org/wiki/Getty_Center"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.5648608,34.0458857 ]
+    },
+    "properties": {
+    "id":10,
+    "chapter":"The Getty Villa",
+    "zoom":18,
+    "image":"http://www.getty.edu/visit/images/gtc_2013-07-26wald0003_hero_lrg.jpg",
+    "source credit":"nope",
+    "source link":"http://www.getty.edu/museum/about.html"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1145242,34.1290452 ]
+    },
+    "properties": {
+    "id":11,
+    "chapter":"Huntington Library, Art Collections, and Botanical Gardens",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://www.huntington.org/WebAssets/Templates/content.aspx?id=56"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2387885,34.0494507 ]
+    },
+    "properties": {
+    "id":12,
+    "chapter":"Japanese American National Museum",
+    "zoom":18,
+    "image":"http://media.janm.org/visit/JANM-pavilion.jpg",
+    "source credit":"nope",
+    "source link":"http://www.janm.org/about/history/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.355673,34.06383 ]
+    },
+    "properties": {
+    "id":13,
+    "chapter":"The La Brea Tar Pits and Museum ",
+    "zoom":18,
+    "image":"http://www.tarpits.org/sites/default/files/hero_images/Lake%20Pit%20Hero.jpg",
+    "source credit":"nope",
+    "source link":"http://www.tarpits.org/our-story/about-the-page"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1648371,33.7634752 ]
+    },
+    "properties": {
+    "id":14,
+    "chapter":"Long Beach Museum of Art ",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"https://en.wikipedia.org/wiki/Long_Beach_Museum_of_Art"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.3592293,34.0639323 ]
+    },
+    "properties": {
+    "id":15,
+    "chapter":"Los Angeles County Museum of Art",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://www.lacma.org/overview"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2504322,34.0532736 ]
+    },
+    "properties": {
+    "id":16,
+    "chapter":"Museum of Contemporary Art",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art,_Los_Angeles"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.3950595,34.0258752 ]
+    },
+    "properties": {
+    "id":17,
+    "chapter":"The Museum of Jurassic Technology",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"https://en.wikipedia.org/wiki/Museum_of_Jurassic_Technology"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.17985,33.774467 ]
+    },
+    "properties": {
+    "id":18,
+    "chapter":"Museum of Latin American Art",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://www.molaa.org/About-MOLAA/mission-and-history.aspx"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2887598,34.0170887 ]
+    },
+    "properties": {
+    "id":19,
+    "chapter":"Natural History Museum of Los Angeles County",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://www.nhm.org/site/about-our-museums/history"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.159263,34.1463586 ]
+    },
+    "properties": {
+    "id":20,
+    "chapter":"Norton Simon Museum",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://www.nortonsimon.org/museum-history/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.1402176,34.1469961 ]
+    },
+    "properties": {
+    "id":21,
+    "chapter":"Pasadena Museum of California Art",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://pasadenahistory.org/history-of-pasadena-museum-of-history/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.360962,34.063361 ]
+    },
+    "properties": {
+    "id":22,
+    "chapter":"Petersen Automotive Museum",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://petersen.org/about/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4788541,34.1247379 ]
+    },
+    "properties": {
+    "id":23,
+    "chapter":"Skirball Cultural Center",
+    "zoom":18,
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Skirball_Architecture.jpg/450px-Skirball_Architecture.jpg",
+    "source credit":"nope",
+    "source link":"http://www.skirball.org/about"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.442983,34.0729274 ]
+    },
+    "properties": {
+    "id":24,
+    "chapter":"UCLA Fowler Museum of Cultural History",
+    "zoom":18,
+    "image":"http://www.fowler.ucla.edu/sites/default/files/imagecache/Full_View_650px/images_venue/37Terrace.jpg",
+    "source credit":"nope",
+    "source link":"http://www.fowler.ucla.edu/about/history"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4435311,34.05945 ]
+    },
+    "properties": {
+    "id":25,
+    "chapter":"UCLA Hammer Museum",
+    "zoom":18,
+    "image":"https://media.timeout.com/images/100521967/617/347/image.jpg",
+    "source credit":"nope",
+    "source link":"http://hammer.ucla.edu/about-us/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2872522,34.01860737 ]
+    },
+    "properties": {
+    "id":26,
+    "chapter":"USC Fisher Museum",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://fisher.usc.edu/about/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.14101,34.146755 ]
+    },
+    "properties": {
+    "id":27,
+    "chapter":"USC Pacific Asia Museum",
+    "zoom":18,
+    "image":"na",
+    "source credit":"nope",
+    "source link":"http://www.pacificasiamuseum.org/_about/mission.aspx"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2411864,33.9387395 ]
+    },
+    "properties": {
+    "id":28,
+    "chapter":"Watts Towers Arts Center",
+    "zoom":18,
+    "image":"http://www.wattstowers.us/watts_towers_views/images/01.jpg",
+    "source credit":"nope",
+    "source link":"http://www.wattstowers.org/#!about2/c135e"
+    }
+  }
+]
 }
