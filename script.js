@@ -33,7 +33,7 @@ function initMap() {
   controlLayers.addBaseLayer(lightAll, 'CartoDB LightAll');
 
   // Esri satellite map from http://leaflet-extras.github.io/leaflet-providers/preview/
-  var Esri_WorldImagery = L.tileLayer('https://api.mapbox.com/v4/andy-rutkowski.odbodjfo{z}/{y}/{x}', {
+  var Esri_WorldImagery = L.tileLayer('https://{s}.tiles.mapbox.com/v3/andy-rutkowski.odbodjfo/{z}/{y}/{x}', {
     attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
   });
   controlLayers.addBaseLayer(Esri_WorldImagery, 'Esri Satellite');
