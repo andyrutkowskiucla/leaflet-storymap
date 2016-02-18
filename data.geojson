@@ -1,1 +1,62 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"ID":1,"chapter":"one","zoom":14,"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/1280px-Kittyply_edit1.jpg","source credit":"me","source link":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/1280px-Kittyply_edit1.jpg"},"geometry":{"type":"Point","coordinates":[-118.31314086914062,34.00258128543371]}},{"type":"Feature","properties":{"ID":2,"chapter":"two","zoom":14,"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/1280px-Kittyply_edit1.jpg","source credit":"me","source link":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/1280px-Kittyply_edit1.jpg"},"geometry":{"type":"Point","coordinates":[-118.27331542968749,34.093610452768715]}},{"type":"Feature","properties":{"ID":3,"chapter":"three","zoom":14,"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/1280px-Kittyply_edit1.jpg","source credit":"me","source link":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kittyply_edit1.jpg/1280px-Kittyply_edit1.jpg"},"geometry":{"type":"Point","coordinates":[-118.10028076171875,33.970697997361626]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "first point",
+        "zoom": 18,
+        "image": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+        "source credit": "i dont know",
+        "source link": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+        "description": "yes yes yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3502197265625,
+          34.00258128543371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "chapter": "second point",
+        "zoom": 17,
+        "image": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+        "source credit": "i dont know",
+        "source link": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+        "description": "yes yes yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.10302734374999,
+          33.8247936182649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "chapter": "third point",
+        "zoom": 16,
+        "image": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+        "source credit": "i dont know",
+        "source link": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+        "description": "yes yes yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.938232421875,
+          34.043556504127444
+        ]
+      }
+    }
+  ]
+}
