@@ -40,7 +40,7 @@ function initMap() {
 
   // tileLayer.WMS as a baselayer - see http://leafletjs.com/reference.html#tilelayer-wms
   // UConn MAGIC WMS settings - see http://geoserver.lib.uconn.edu:8080/geoserver/web/?wicket:bookmarkablePage=:org.geoserver.web.demo.MapPreviewPage
-  var aerial1934 = new L.tileLayer.wms("http://geoserver.lib.uconn.edu:8080/geoserver/MAGIC/wms?", {
+  var aerial1934 = new L.tileLayer.wms("https://{s}.tiles.mapbox.com/v3/andy-rutkowski.b18exjrz/{z}/{x}/{y}.png", {
     layers: 'MAGIC:1934 Connecticut Aerial Photography',
     format: 'image/png',
     version: '1.1.0',
